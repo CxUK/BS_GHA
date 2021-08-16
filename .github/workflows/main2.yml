@@ -36,7 +36,7 @@ jobs:
           checkmarx_password: "ff!R8P2g@n4WgjrEVg6HWIH"
           
           # Provide Checkmarx Client Secret  #014DF517-39D1-4453-B7B3-9930C563627C
-          checkmarx_client_secret: "014DF517-39D1-4453-B7B3-9930C563627C"
+          checkmarx_client_secret: "014DF51-XXXXXX-9930C563627C"
           # Select a Checkmarx Project
           # project: ${{Env.GITHUB_REPOSITORY}}
           project: AndyT
@@ -65,6 +65,6 @@ jobs:
           # Provide SCA Username
           sca_username: "ScannerGit"
           # Provide SCA Password
-          sca_password: "ff!R8P2g@n4WgjrEVg6HWIH"
+          sca_password: "ffXXXXXXXXXXXXHWIH"
           params:  --checkmarx.settings-override=true --bug-tracker=jira --config=cx.config --repo-name=BS_GHA --namespace=cxukat --branch=master --jira.url=https://cxukat.atlassian.net --jira.username=andrew@andrewthompson.me.uk --jira.token=FDdECKrmG6H8sKdebNVk7F6C
      
